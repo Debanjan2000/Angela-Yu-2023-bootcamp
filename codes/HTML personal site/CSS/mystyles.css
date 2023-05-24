@@ -1,0 +1,44 @@
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference (all CSS properties)*/
+/*tag selectors-->i.e changing css style just mentioning tag name8*/
+body{
+            background-colorL:azure;
+        }
+
+hr{
+            
+            
+            /*MAKING Sean Halpin like cool hr line CHALLENGE*/
+    
+            background-color:azure;
+            border-style:dotted none none none;/*The border-style property may be specified using one, two, three, or four values.
+                                                 When one value is specified, it applies the same style to all four sides.
+                                                 When two values are specified, the first style applies to the top and bottom, the second to the left and right.
+                                                 When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
+                                                 When four values are specified, the style apply to the top, right, bottom, and left in that order (clockwise).*/
+            border-width:5px;
+            border-color:rgb(181, 179, 179); 
+            width:5%;
+}
+h1{
+    color: #66BFBF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 13px;
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness:1.7px;
+}
+h3{
+    color: #66BFBF;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: unset;
+}
+
+a{             /*need this to change else "CODING PROFILE" text colour will not change cuz it's embedded inside anchor tag(<a>) */
+    color:plum;
+    font-variant: unset;
+}
+
+img{
+            height:150px;
+            width:150px;
+}

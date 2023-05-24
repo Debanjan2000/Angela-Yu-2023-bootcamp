@@ -1,0 +1,195 @@
+body{
+    font-family:"Montserrat";
+    
+}
+h1{
+    font-family:"Montserrat";
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-size:1.5 rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5 rem;
+}
+li{
+    color:#8f8f8f;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#title{
+    
+    background-image:linear-gradient(to right,rgb(238, 103, 103),rgb(110, 110, 245));
+    color: #fff;/*text color*/
+}
+/* @media print{
+    #title{
+        background-color: red;
+    }
+} */
+.container-fluid{
+    padding:1.5% 6% 12% 6%;
+
+
+}
+
+
+
+
+/* navigation bar */
+.navbar-brand{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+.navbar{
+    padding-bottom: 2.5rem;
+    font-size: 28px;
+}
+.nav-item{
+    padding-right: 10px;
+}
+.nav-link{
+    font-family:cursive;
+    font-weight:0px;
+}
+
+/* download buttons */
+.download-buttons{
+    margin:5% 3% 5% 0%;
+
+}
+
+.titular_dog{
+    transform: rotate(30deg);
+    position: absolute; 
+}
+
+/* features */
+#features{
+    padding:7% 15%;/*<---doing this so that our content is squished inside and put as a center */
+    background-color: white;
+     position: relative;
+    z-index: 1; 
+
+}
+
+
+.feature-box{
+    text-align:center;
+}
+
+.feature-desc{
+    color:#8f8f8f;
+    font-family:Arial, Helvetica, sans-serif;
+    /* below 2 lines done so that our text comes in multi lines */
+    margin-left:26%;
+    margin-right:26%;
+}
+
+.feature-photo{
+    color:rgb(200, 124, 220);
+    width:30%;
+    height:30%;
+    margin-bottom: 1rem;
+}
+.feature-photo:hover{
+    fill: rgb(210, 25, 235);
+}
+
+/* testemonials*/
+
+#testimonials{
+    padding:7% 15%;/*<---doing this so that our content is squished inside and put as a center */
+    
+    text-align: center;
+    background-image:linear-gradient(to right,rgb(238, 103, 103),rgb(110, 110, 245));
+    color: #fff;
+}
+
+
+.testimonial-image{
+    border-radius: 100%;
+    width:20%;
+    padding:5px;
+}
+#press{
+    background-image:linear-gradient(to right,rgb(238, 103, 103),rgb(110, 110, 245));
+    text-align:center;
+    padding-bottom:150px;
+}
+.press-photo{
+    padding:0px 5px 10px 5px;
+    width:250px;
+}
+.carousel-indicators{
+    padding-top: 30px;
+}
+
+/* pricing*/
+#pricing{
+    padding:7% 15%;/*<---doing this so that our content is squished inside and put as a center */
+    
+    text-align: center;
+}
+.card-header{
+    background-color:#f3f0f0;
+
+}
+
+@media (max-width:1020px){
+    #title{
+        text-align: center;
+    }
+    .titular_dog{
+        position:static;
+        transform: rotate(00deg);
+    }
+
+}
+
+
+/* cta*/
+#cta{
+    background-image:linear-gradient(to right,rgb(238, 103, 103),rgb(110, 110, 245));
+    text-align:center;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.call_head{
+    font-size: 3rem;
+    margin-bottom: 50px ;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* footer*/
+#footer{
+    background-color: #fff;
+    text-align:center;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.footer-text{
+    color:#8f8f8f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.footer-logos{
+    padding-left:3px;
+    padding-right:3px;
+    /* footer logos to be customised with bigger size(do either qith awesome font else do with svg from bootstrap  logos*/
+}
+
+.footer_img{
+   width: 30px;
+   height: 30px;
+   margin-left: 60px;
+   margin-bottom: 40px;
+}
+
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <title>Debanjan's Homepage</title>
+    <link rel="stylesheet" href="CSS/mystyles.css"><!--linking EXTERNAL CSS -->
+    <!--
+    <style>/*INTERNAL CSS just mention which tag u wanna change and add customizations*/
+        body{
+            background-color:azure;
+        }
+
+        hr{
+            /*
+             background-color:blue;
+            border-style: none;/*border of the horizontal line box(YES!! evry html element is a BOX,use pesticide extension to see*/
+            /*NOW we don't see any border style so removed (u rem every elemnt in our site is a rectangle and it default height set by browser is 0px.(https://www.w3schools.com/cssref/css_default_values.php) .
+            So setting border-style:none will make the horizontal line disappear cuz we are mere seeing the border (border-width=1px(default)) of our horizontal line element (as height =0px).SO to see the line we need to set some height
+            height: 0px;more height more thick the line is
+            width:5%;width of the hoirizontal line*/
+            
+            
+            /*MAKING Sean Halpin like cool hr line CHALLENGE*/
+    
+            background-color:azure;
+            border-style:dotted none none none;/*The border-style property may be specified using one, two, three, or four values.
+                                                 When one value is specified, it applies the same style to all four sides.
+                                                 When two values are specified, the first style applies to the top and bottom, the second to the left and right.
+                                                 When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
+                                                 When four values are specified, the style apply to the top, right, bottom, and left in that order (clockwise).*/
+            border-width:5px;
+            border-color:rgb(181, 179, 179); 
+            width:5%;
+        }
+
+        img{
+            height:150px;
+            width:150px;
+        }
+    </style>
+    -->
+   </head>
+
+   <!--
+   <body style="background-color: #d8f1ec;">INLINE CSS(need to make more effort to apply, beacuse weneed to write in all the line where we have to MAKE changes.SO,better shift to INTERNAL CSS)-->
+   
+
+    <table cellspacing="12px"><!---adding table so that my photo and intro placed side by side not intro below photo
+                               #CELLSPACING===>creates space between table elements-->
+     <tr>
+       <td><img src="my pic.png" alt="Debanjan's Profile pic" width="300" ></td>
+
+        <td>
+        <h1>Debanjan Das</h1>
+        <em>Student in <strong>KIIT</strong></em><!---- Italicsed and emphasized
+                                                     <i></i> ->ITALICISE TAG(Italicised the text)
+                                                     <em></em>->EMPHASIZE TAG(emphasised+italicised(also confers some meaning hence Better to use))
+                                                     Similarly
+                                                     for BOLD :-
+                                                     <b></b> ->BOLD TAG(just visually bold the text)
+                                                     <strong></strong> ->STRONG TAG(bold+emphasise)====>BETTER TO USE
+                                                     ---->
+        <p>  
+        I am a third year undergrad in KIIT university,Bhubaneswar. My interests include remote sensing,Robotics,Cyberphysical Systems.<br>I am also interested to pursue research in future , so my aim is to clear GATE and go to IITs for my masters before pursing PhD(in abroad if<br> I have the skills,opportunities and luck).
+        U can find my resume <a href="https://drive.google.com/file/d/12wUn2WDecJjnkOMWVymZ5BJJkRHCZw3w/view?usp=sharing" 
+        target="_blank"> here</a> <!--- <a href="link" target=""> TEXT </a> ====>HYPERTEXT(EXTERNAL LINK) tag
+                                    href=a attribute(write address of the site that will be opened).
+                                    target=an attribute(which tells where the redirected site opened same tab(_self),new tab(_blank) etc)
+                                    TEXT=>between the tags is the text which will be highlighted and clicking on it will led us to the other external site.-->
+         </p>                           
+         </td>
+        </td>
+     </tr>
+    </table>
+     <hr >
+
+
+    <h3>EDUCATION</h3> 
+    <ul>
+        <li>
+            KIIT,Bhubaneswar(2020-2024)
+            <ul>
+                <li><strong>First Year:-</strong>C prog</li>
+                <li><strong>Second Year:-</strong>DSA,DM,DLD</li>
+                <li><strong>Third Year:-</strong>OS,COA,DBMS,WEBTECH,HPC,AFL,SE,CD</li>
+            </ul>
+        </li>   
+        <li>SAVM,Chandernagore(2007-2019)</li>
+    </ul>
+    
+    <hr>
+
+    <h3><a href="coding profile.html" target="_blank">CODING PROFILES</a></h3> <!----redirected to my different site-->
+
+    <hr>
+
+    <h3>EDUCATION(Tabular format)</h3>
+    <table cellspacing="15">                                                                  <!--creating TABLES-->
+        <thead>                                                               <!--Table head start-->
+            <tr>                                                               <!--<tr></tr>===>TABLE ROW TAG,creates a new row.-->
+            <th>Names</th>                                             <!--<th></th>===>TABLE head data Tag,data(cell) inserted horizontally.-->
+            <th>Subjects</th>
+            <th>Grades</th>
+            </tr>
+        </thead>                                                               <!--Table head finish-->
+        <tbody>                                                               <!--Table body start-->
+            <tr>
+                <td>KIIT,Bhubaneswar(2020-2024)</td>
+                <td>                                            <!--<th></th>===>TABLE BODY data Tag insert data(cell)horizontally.-->
+                    <ul>
+                        <li><strong>First Year:-</strong>C prog</li>
+                        <li><strong>Second Year:-</strong>DSA,DM,DLD</li>
+                        <li><strong>Third Year:-</strong>OS,COA,DBMS,WEBTECH,HPC,AFL,SE,CDS</li>
+                    </ul>
+                </td> 
+                <td> 8.89 CGPA</td>  
+            </tr>    
+            <tr>
+                <td>SAVM,Chandernagore(2007-2019)</td>
+                <td>
+                    <ul>
+                        <li>Physics</li>
+                        <li>Chem</li>
+                        <li>Maths</li>
+                        <li>Bio</li>
+                    </ul>
+                <td>87.5%(Class 12)<br>90%(Class 10)</td>
+            </tr>  
+        </tbody>                                                               <!--Table body finish-->
+        <tfoot>                                                               <!--Table foot start-->
+
+        </tfoot>                                                               <!--Table foot start-->
+    
+    </table>
+
+    <hr>
+
+    <h3>SKILLS</h3>
+    <table border="2px " spacing="13" ><!--NOTHING ROCKET SCIENCE,just a nested table(table,table side by side(acts as columns) inside a master table,just for the challenge given)-->
+        <tr>
+            <td><!--as first cell(or element we have 1 full table)-->
+             <table>
+               <tr> 
+                <td>Data Structures</td><td> ✅✅✅</td>
+               </tr> 
+               <tr> 
+                <td>Web development</td><td> ✅</td>
+               </tr>
+               <tr> 
+                <td>C prog</td><td> ✅✅✅✅</td>
+               </tr>  
+               <tr> 
+                <td>C++</td><td> ✅✅✅</td>
+               </tr> 
+            </table>
+            </td>
+            <td><!--as second cell(or element we have 1 full table)-->
+                <table>
+                   <tr> 
+                    <td>Gaming</td><td> ✅✅✅</td>
+                   </tr> 
+                   <tr> 
+                    <td>Photography</td><td> ✅✅</td>
+                   </tr>
+                   <tr> 
+                    <td>Drawing</td><td> ✅✅✅</td>
+                   </tr>  
+                   <tr> 
+                    <td>Brewing</td><td> ✅</td>
+                   </tr> 
+                </table>
+             </td>
+        </tr>    
+    </table>
+
+    <hr>
+    <br>
+    <br>
+    <br>
+
+    <a href="hobbies.html" target="_blank">HOBBIES</a>
+    <a href="contact.html" target="_blank">CONTACT ME</a>
+    
+
+  <br><br>
+
+   </body>
+</html>

@@ -1,0 +1,49 @@
+/*************************tag selectors***********/
+h1{
+    color: green;
+    font-size: 170px;
+}
+
+
+img{/*----------------------------->USELESS will not work here any effect as for images we already made their own class*/
+    width:200px;
+    height:200px;
+    background-color: red;
+
+    
+}
+
+/*************************class selectors********************/
+
+/* need of class selectors
+
+see with tag selector we can change all elements under a specific tag . 
+eg :- i have 2 images bacon and brocoli. I want diff background color for them.  SO made different "class" for them
+thereby,i can apply separate attrbitutes to the classes.
+class tag is invoked by using  dot "." before the class name.       */
+
+
+.bacon{
+    background-color: green;
+}
+
+.brocoli{
+    background-color: red;
+}
+
+.gola{
+    border-radius: 300px;
+}
+
+/*************************id selectors********************/
+
+
+#bacon{
+    background-color: aqua;
+}
+
+/*************************pseudo class********************/
+
+img:hover{
+    background-color:rgb(60, 217, 94);
+}

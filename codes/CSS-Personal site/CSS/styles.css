@@ -1,0 +1,169 @@
+body{
+    margin: 0;/*so that uppermost div is at exactly at the border.no space(margin)---------VID 43 11:00*/ 
+    text-align: center; /*most content,pics are centered*/ 
+    font-family: sans-Serif;
+    color:#40514E;
+}
+h1 {
+    font-size: 5.625em;
+     /*font-size: 70px;makes font size static(i.e with browser font setting chnage this part is unchanged
+    Use %  or 'em' to get DYNAMIC font size.                    100%=16px=1em      font size)*/
+    /* also DYNAMIC font size gets 'inherited'. i.e if parent font size is changed then the object's font size is also affected.*/
+    /* font-size: 5.625em;*/
+    /*but better to use 'rem' (root em) which ignores parent font size change.*/
+    font-family: 'Rouge Script', cursive;/*fall back(if pacifico is not present then use cursive else arial*/
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 1.6;/*spacing between 2 lines -> 1 is default*/
+}
+
+h2{
+    color: #66BFBF;
+    font-weight:normal;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+h3{
+    color:#11999E;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    font-weight: bold;
+    color:#11999E;
+    line-height: 1.5;
+    text-decoration: none; /*to remove underline from the links*/
+    padding:0 20px;/*so that there is a bit gap b/w the hyperlinks */
+}
+a:hover{
+    color:#e1f5f2;
+}
+.top-container {
+    background-color:#e1f5f2;
+    position:relative;
+    padding-top:100px;
+}
+.middle-container{
+    margin:100px 0;
+}
+
+.profile-desc{
+    margin-bottom: 60px;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;/*so that only text or objects inside "skill-row" class only is "left aligned". */
+    line-height:1.4;
+    
+}
+.dev-pic{
+    width: 20%;/*width of image 25% of parent*/
+    float:left;/*so that the text wrap around the photo*/
+    margin-right:10px;
+}
+.algo-pic{
+    width: 20%;/*width of image 25% of parent*/
+    float:right;/*so that the text wrap around the photo*/
+    margin-right:10px;
+    color:#11999E;
+}
+.model-pic{
+    width: 20%;/*width of image 25% of parent*/
+    float:left;/*so that the text wrap around the photo*/
+    margin-right:10px;
+}
+
+.model-desc{
+    clear:left;/*to "UN-WRAP" the text. Only heading is wrapped. Makes sure nothing in the 'left' of the margin of the object.*/
+
+}
+
+.top-cloud{
+    filter: contrast(60%); /*to dec contrast(IMAGE EDITOR)*/
+    position:absolute; /*by default static*/
+    top:50px;
+    right:300px;
+}
+
+.bottom-cloud{
+    filter: contrast(60%);
+    position: absolute;
+    left:300px;
+    bottom:300 px;
+} 
+
+.linestyle{
+    background-color:azure;
+    border-style:dotted none none none;
+    border-width:5px;
+    border-color:rgb(215, 212, 212); 
+    width:5%;
+    margin: 70px auto;
+}
+
+.contact_msg{
+    margin-bottom: 80px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-me{
+    padding-bottom: 10px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 40px;
+    padding-top:20px;
+    
+}
+
+/* .footer-link{
+    display:inline-block;
+    width:150px;
+} */
+
+
+.copyright{
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+  
